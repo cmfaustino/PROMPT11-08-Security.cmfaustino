@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountMVCdemoWSF", "AccountMVCdemoWSF\AccountMVCdemoWSF.csproj", "{EA96D53C-79D4-427B-AAFB-55D8AFBF5257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountMVCdemoWSF.Tests", "AccountMVCdemoWSF.Tests\AccountMVCdemoWSF.Tests.csproj", "{8B7A377C-3677-4CFB-ACA1-C81C66954149}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA96D53C-79D4-427B-AAFB-55D8AFBF5257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA96D53C-79D4-427B-AAFB-55D8AFBF5257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA96D53C-79D4-427B-AAFB-55D8AFBF5257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA96D53C-79D4-427B-AAFB-55D8AFBF5257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B7A377C-3677-4CFB-ACA1-C81C66954149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7A377C-3677-4CFB-ACA1-C81C66954149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7A377C-3677-4CFB-ACA1-C81C66954149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7A377C-3677-4CFB-ACA1-C81C66954149}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

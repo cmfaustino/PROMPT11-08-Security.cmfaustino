@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityProvider", "IdentityProvider\IdentityProvider.csproj", "{2630984B-8746-4574-8EC2-CFB5CCAB0896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityProvider.Tests", "IdentityProvider.Tests\IdentityProvider.Tests.csproj", "{1728910C-5213-4942-9BB2-5257B5724C60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2630984B-8746-4574-8EC2-CFB5CCAB0896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2630984B-8746-4574-8EC2-CFB5CCAB0896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2630984B-8746-4574-8EC2-CFB5CCAB0896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2630984B-8746-4574-8EC2-CFB5CCAB0896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1728910C-5213-4942-9BB2-5257B5724C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1728910C-5213-4942-9BB2-5257B5724C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1728910C-5213-4942-9BB2-5257B5724C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1728910C-5213-4942-9BB2-5257B5724C60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

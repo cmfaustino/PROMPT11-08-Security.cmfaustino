@@ -1,0 +1,6 @@
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthNativo\OAuthNativo\bin\Debug\OAuthNativo.exe.config
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthNativo\OAuthNativo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthNativo\OAuthNativo\bin\Debug\OAuthNativo.exe
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthNativo\OAuthNativo\bin\Debug\OAuthNativo.pdb
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthNativo\OAuthNativo\obj\x86\Debug\OAuthNativo.exe
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthNativo\OAuthNativo\obj\x86\Debug\OAuthNativo.pdb

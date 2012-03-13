@@ -1,0 +1,94 @@
+System.ServiceModel.Security.MessageSecurityException was unhandled
+  Message=An unsecured or incorrectly secured fault was received from the other party. See the inner FaultException for the fault code and detail.
+  Source=mscorlib
+  StackTrace:
+    Server stack trace: 
+       at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.ProcessReply(Message reply, SecurityProtocolCorrelationState correlationState, TimeSpan timeout)
+       at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+       at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+       at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+       at System.ServiceModel.Channels.ServiceChannel.Request(Message message, TimeSpan timeout)
+    Exception rethrown at [0]: 
+       at System.ServiceModel.Security.IssuanceTokenProviderBase`1.DoNegotiation(TimeSpan timeout)
+       at System.ServiceModel.Security.IssuanceTokenProviderBase`1.GetTokenCore(TimeSpan timeout)
+       at System.IdentityModel.Selectors.SecurityTokenProvider.GetToken(TimeSpan timeout)
+       at System.ServiceModel.Security.Tokens.IssuedSecurityTokenProvider.GetTokenCore(TimeSpan timeout)
+       at System.IdentityModel.Selectors.SecurityTokenProvider.GetToken(TimeSpan timeout)
+       at System.ServiceModel.Security.SecurityProtocol.TryGetSupportingTokens(SecurityProtocolFactory factory, EndpointAddress target, Uri via, Message message, TimeSpan timeout, Boolean isBlockingCall, IList`1& supportingTokens)
+       at System.ServiceModel.Security.SymmetricSecurityProtocol.TryGetTokenSynchronouslyForOutgoingSecurity(Message message, SecurityProtocolCorrelationState correlationState, Boolean isBlockingCall, TimeSpan timeout, SecurityToken& token, SecurityTokenParameters& tokenParameters, SecurityToken& prerequisiteWrappingToken, IList`1& supportingTokens, SecurityProtocolCorrelationState& newCorrelationState)
+       at System.ServiceModel.Security.SymmetricSecurityProtocol.SecureOutgoingMessageCore(Message& message, TimeSpan timeout, SecurityProtocolCorrelationState correlationState)
+       at System.ServiceModel.Security.MessageSecurityProtocol.SecureOutgoingMessage(Message& message, TimeSpan timeout, SecurityProtocolCorrelationState correlationState)
+       at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+       at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.DoOperation(SecuritySessionOperation operation, EndpointAddress target, Uri via, SecurityToken currentToken, TimeSpan timeout)
+       at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.GetTokenCore(TimeSpan timeout)
+       at System.IdentityModel.Selectors.SecurityTokenProvider.GetToken(TimeSpan timeout)
+       at System.ServiceModel.Security.SecuritySessionClientSettings`1.ClientSecuritySessionChannel.OnOpen(TimeSpan timeout)
+       at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+       at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+       at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+       at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+       at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+       at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+       at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+       at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+       at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+    Exception rethrown at [1]: 
+       at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+       at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+       at ClientOfService.WhoAmI.IWhoAmI.Get()
+       at ClientOfService.WhoAmI.WhoAmIClient.Get() in C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IWhoAmIacsSOAP\ClientOfService\Service References\WhoAmI\Reference.cs:line 50
+       at ClientOfService.Program.Main(String[] args) in C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IWhoAmIacsSOAP\ClientOfService\Program.cs:line 17
+       at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+       at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+       at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+       at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+       at System.Threading.ThreadHelper.ThreadStart()
+  InnerException: System.ServiceModel.FaultException
+       Message=ACS10002: An error occurred while processing the SOAP body.
+ ACS50000: There was an error issuing a token.
+ ACS50001: Requested relying party realm 'http://localhost:49647/Services/WhoAmI.svc' is unknown
+ 
+Trace ID: 8ff9444f-7d14-49db-abd2-f45fbccdb6ee
+
+Timestamp: 2012-02-22 20:03:56Z
+       InnerException: 
+--//--
+System.ServiceModel.Security.MessageSecurityException was unhandled
+  Message=An unsecured or incorrectly secured fault was received from the other party. See the inner FaultException for the fault code and detail.
+  Source=mscorlib
+  StackTrace:
+    Server stack trace: 
+       at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.ProcessReply(Message reply, SecurityProtocolCorrelationState correlationState, TimeSpan timeout)
+       at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+       at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.DoOperation(SecuritySessionOperation operation, EndpointAddress target, Uri via, SecurityToken currentToken, TimeSpan timeout)
+       at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.GetTokenCore(TimeSpan timeout)
+       at System.IdentityModel.Selectors.SecurityTokenProvider.GetToken(TimeSpan timeout)
+       at System.ServiceModel.Security.SecuritySessionClientSettings`1.ClientSecuritySessionChannel.OnOpen(TimeSpan timeout)
+       at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+       at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+       at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+       at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+       at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+       at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+       at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+       at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+       at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+       at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+    Exception rethrown at [0]: 
+       at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+       at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+       at ClientOfService.WhoAmI.IWhoAmI.Get()
+       at ClientOfService.WhoAmI.WhoAmIClient.Get() in C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IWhoAmIacsSOAP\ClientOfService\Service References\WhoAmI\Reference.cs:line 50
+       at ClientOfService.Program.Main(String[] args) in C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IWhoAmIacsSOAP\ClientOfService\Program.cs:line 17
+       at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+       at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+       at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+       at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+       at System.Threading.ThreadHelper.ThreadStart()
+  InnerException: System.ServiceModel.FaultException
+       Message=ID3242: O token de segurança não pôde ser autenticado ou autorizado.
+       InnerException: 

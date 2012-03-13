@@ -1,0 +1,7 @@
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider\bin\IdentityProvider.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider\bin\IdentityProvider.pdb
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider\bin\EntityFramework.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider\bin\EntityFramework.xml
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider\obj\Debug\ResolveAssemblyReference.cache
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider\obj\Debug\IdentityProvider.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider\obj\Debug\IdentityProvider.pdb

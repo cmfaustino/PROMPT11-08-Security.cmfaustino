@@ -1,0 +1,7 @@
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\HashDeFicheiro\bin\Debug\HashDeFicheiro.exe
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\HashDeFicheiro\bin\Debug\HashDeFicheiro.pdb
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\HashDeFicheiro\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\HashDeFicheiro\obj\x86\Debug\HashDeFicheiro.exe
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\HashDeFicheiro\obj\x86\Debug\HashDeFicheiro.pdb
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\HashDeFicheiro\bin\Debug\HashComputacao.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\HashDeFicheiro\bin\Debug\HashComputacao.pdb

@@ -1,0 +1,12 @@
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\AccountMVCdemoWSF\AccountMVCdemoWSF.Tests\bin\Debug\AccountMVCdemoWSF.Tests.dll.config
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\AccountMVCdemoWSF\AccountMVCdemoWSF.Tests\bin\Debug\AccountMVCdemoWSF.Tests.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\AccountMVCdemoWSF\AccountMVCdemoWSF.Tests\bin\Debug\AccountMVCdemoWSF.Tests.pdb
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\AccountMVCdemoWSF\AccountMVCdemoWSF.Tests\bin\Debug\AccountMVCdemoWSF.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\AccountMVCdemoWSF\AccountMVCdemoWSF.Tests\bin\Debug\nunit.framework.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\AccountMVCdemoWSF\AccountMVCdemoWSF.Tests\bin\Debug\nunit.mocks.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\AccountMVCdemoWSF\AccountMVCdemoWSF.Tests\bin\Debug\pnunit.framework.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\AccountMVCdemoWSF\AccountMVCdemoWSF.Tests\bin\Debug\AccountMVCdemoWSF.pdb
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\AccountMVCdemoWSF\AccountMVCdemoWSF.Tests\bin\Debug\nunit.framework.xml
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\AccountMVCdemoWSF\AccountMVCdemoWSF.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\AccountMVCdemoWSF\AccountMVCdemoWSF.Tests\obj\Debug\AccountMVCdemoWSF.Tests.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\AccountMVCdemoWSF\AccountMVCdemoWSF.Tests\obj\Debug\AccountMVCdemoWSF.Tests.pdb

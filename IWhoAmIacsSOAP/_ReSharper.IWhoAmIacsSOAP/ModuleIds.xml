@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="E0308B81-D70F-4CF2-81E8-8025EE412F45" ModuleId="ClientOfService" />
+  <Module PersistentId="7D9B427E-43B2-4997-BA04-0171CAC10BF6" ModuleId="IWhoAmIacsSOAP" />
+</Modules>

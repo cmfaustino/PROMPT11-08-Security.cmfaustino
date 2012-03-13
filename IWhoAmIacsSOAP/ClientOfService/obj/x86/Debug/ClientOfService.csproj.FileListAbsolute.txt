@@ -1,0 +1,6 @@
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IWhoAmIacsSOAP\ClientOfService\bin\Debug\ClientOfService.exe.config
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IWhoAmIacsSOAP\ClientOfService\bin\Debug\ClientOfService.exe
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IWhoAmIacsSOAP\ClientOfService\bin\Debug\ClientOfService.pdb
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IWhoAmIacsSOAP\ClientOfService\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IWhoAmIacsSOAP\ClientOfService\obj\x86\Debug\ClientOfService.exe
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IWhoAmIacsSOAP\ClientOfService\obj\x86\Debug\ClientOfService.pdb

@@ -1,0 +1,12 @@
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider.Tests\bin\Debug\IdentityProvider.Tests.dll.config
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider.Tests\bin\Debug\IdentityProvider.Tests.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider.Tests\bin\Debug\IdentityProvider.Tests.pdb
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider.Tests\bin\Debug\IdentityProvider.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider.Tests\bin\Debug\nunit.framework.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider.Tests\bin\Debug\nunit.mocks.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider.Tests\bin\Debug\pnunit.framework.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider.Tests\bin\Debug\IdentityProvider.pdb
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider.Tests\bin\Debug\nunit.framework.xml
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider.Tests\obj\Debug\IdentityProvider.Tests.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\IdentityProvider\IdentityProvider.Tests\obj\Debug\IdentityProvider.Tests.pdb

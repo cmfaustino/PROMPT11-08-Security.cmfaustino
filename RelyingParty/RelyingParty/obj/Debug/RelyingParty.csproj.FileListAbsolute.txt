@@ -1,0 +1,7 @@
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\RelyingParty\RelyingParty\bin\RelyingParty.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\RelyingParty\RelyingParty\bin\RelyingParty.pdb
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\RelyingParty\RelyingParty\bin\EntityFramework.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\RelyingParty\RelyingParty\bin\EntityFramework.xml
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\RelyingParty\RelyingParty\obj\Debug\ResolveAssemblyReference.cache
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\RelyingParty\RelyingParty\obj\Debug\RelyingParty.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\RelyingParty\RelyingParty\obj\Debug\RelyingParty.pdb

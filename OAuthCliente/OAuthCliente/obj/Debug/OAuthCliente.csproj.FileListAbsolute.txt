@@ -1,0 +1,13 @@
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthCliente\OAuthCliente\obj\Debug\ResolveAssemblyReference.cache
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthCliente\OAuthCliente\bin\OAuthCliente.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthCliente\OAuthCliente\bin\OAuthCliente.pdb
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthCliente\OAuthCliente\bin\EntityFramework.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthCliente\OAuthCliente\bin\System.Json.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthCliente\OAuthCliente\bin\System.Net.Http.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthCliente\OAuthCliente\bin\System.Net.Http.WebRequest.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthCliente\OAuthCliente\bin\EntityFramework.xml
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthCliente\OAuthCliente\bin\System.Json.xml
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthCliente\OAuthCliente\bin\System.Net.Http.xml
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthCliente\OAuthCliente\bin\System.Net.Http.WebRequest.xml
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthCliente\OAuthCliente\obj\Debug\OAuthCliente.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\OAuthCliente\OAuthCliente\obj\Debug\OAuthCliente.pdb
