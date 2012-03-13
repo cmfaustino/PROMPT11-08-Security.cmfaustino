@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 
 namespace HashDeFicheiro
 {
@@ -85,6 +86,8 @@ namespace HashDeFicheiro
                 ficheiroCaminhoNome = args[0];
                 hashAlgoritmoNome = args[1];
             }
+
+            // 7 - validar se existe(m) ficheiro(s), se sim, obter caminho e padrao, senao, da' erro
             string ficheiroPastaNome;
             string ficheiroPadraoNome;
             if (!HashComputacao.GestaoSistemaFicheiros.ExistemFicheiros(ficheiroCaminhoNome,
@@ -95,7 +98,55 @@ namespace HashDeFicheiro
                 Console.Error.WriteLine("Localizacao: {0}", ficheiroPastaNome);
                 Console.Error.WriteLine("Padrao Nomes: {0}", ficheiroPadraoNome);
             }
-            Console.ReadLine();
+            else
+            {
+                // 8 - validar se existe metodo/algoritmo de hash, se sim, obter instancia, senao, da' erro
+                var hashInst = HashComputacao.HashMetodoCalculo.
+                                                            ObterClasseMetodoValido(hashAlgoritmoNome);
+                if (hashInst == null)
+                {
+                    Console.Error.WriteLine("ERRO: Metodo/algoritmo de hash invalido/nao encontrado!");
+                    Console.Error.WriteLine("Algoritmo: {0}", hashAlgoritmoNome);
+                }
+                else
+                {
+                    // 9 - calcular hash de ficheiro(s), se sim, obter dicionario, senao, da' erro
+                    var dictFicheirosHashs = HashComputacao.HashCalculoFicheiro.
+                                        CalcularHash(ficheiroPastaNome, ficheiroPadraoNome, hashInst);
+                    if ((dictFicheirosHashs == null) || (dictFicheirosHashs.Count < 1))
+                    {
+                        Console.Error.WriteLine(
+                            "ERRO: Localizacao de ficheiro(s) invalida, ou ficheiros apagado(s)!");
+                        Console.Error.WriteLine("Argumento: {0}", ficheiroCaminhoNome);
+                        Console.Error.WriteLine("Localizacao: {0}", ficheiroPastaNome);
+                        Console.Error.WriteLine("Padrao Nomes: {0}", ficheiroPadraoNome);
+                    }
+                    else
+                    {
+                        // 10 - mostrar hash no ecran, percorrendo o dicionario de pares (nome_fich,hash) *** *** ***
+                        Console.WriteLine("RESULTADO DA EXECUCAO:");
+                        Console.WriteLine();
+                        Console.WriteLine("Argumento: {0}", ficheiroCaminhoNome);
+                        Console.WriteLine("Localizacao: {0}", ficheiroPastaNome);
+                        Console.WriteLine("Padrao Nomes: {0}", ficheiroPadraoNome);
+                        Console.WriteLine("Algoritmo: {0}", hashAlgoritmoNome);
+                        Console.WriteLine();
+
+                        int indexFichsHashs = 0;
+                        var contagemFichsHashs = dictFicheirosHashs.Count;
+                        foreach (var fichHash in dictFicheirosHashs)
+                        {
+                            ++indexFichsHashs;
+                            Console.WriteLine("{0} de {1}: Ficheiro = {2}", indexFichsHashs, contagemFichsHashs, fichHash.Key);
+                            Console.WriteLine("{0} de {1}: Hash = {2}", indexFichsHashs, contagemFichsHashs, fichHash.Value);
+                            Console.WriteLine();
+                        }
+                        
+                        // *** FIM ***
+                        Console.ReadLine();
+                    }
+                }
+            }
         }
     }
 }

@@ -84,7 +84,7 @@ namespace HashComputacao
         /// <param name="metodoAValidar">Metodo (nome de classe) a validar.</param>
         /// <returns>Instancia de classe (nao-abstracta) existente no namespace definido
         ///  em <see cref="Namespace"/>, ou entao, <code>null</code>.</returns>
-        public static object ObterClasseMetodoValido(string metodoAValidar)
+        public static HashAlgorithm ObterClasseMetodoValido(string metodoAValidar)
         {
             string metodo;
 
@@ -93,7 +93,7 @@ namespace HashComputacao
             {
                 // 2 - tentar criar instancia de classe correspondente, ou retorna null
                 var tipo = Type.GetType(Namespace + "." + metodo);
-                return (tipo != null) ? Activator.CreateInstance(tipo) : null;
+                return (tipo != null) ? (Activator.CreateInstance(tipo) as HashAlgorithm) : null;
             }
 
             // 3 - se nao se encontrou metodo, retorna null
