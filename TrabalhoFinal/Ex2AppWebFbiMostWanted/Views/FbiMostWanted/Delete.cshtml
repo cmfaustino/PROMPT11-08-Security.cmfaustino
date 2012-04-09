@@ -1,0 +1,38 @@
+﻿@model Ex2AppWebFbiMostWanted.Models.FbiMostWanted
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>FbiMostWanted</legend>
+
+    <div class="display-label">FullName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FullName)
+    </div>
+
+    <div class="display-label">Photo</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Photo)
+    </div>
+
+    <div class="display-label">AliasName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.AliasName)
+    </div>
+
+    <div class="display-label">CrimesComitted</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CrimesComitted)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

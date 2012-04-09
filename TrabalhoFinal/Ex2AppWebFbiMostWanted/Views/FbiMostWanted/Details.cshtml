@@ -1,0 +1,35 @@
+﻿@model Ex2AppWebFbiMostWanted.Models.FbiMostWanted
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>FbiMostWanted</legend>
+
+    <div class="display-label">FullName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FullName)
+    </div>
+
+    <div class="display-label">Photo</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Photo)
+    </div>
+
+    <div class="display-label">AliasName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.AliasName)
+    </div>
+
+    <div class="display-label">CrimesComitted</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CrimesComitted)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

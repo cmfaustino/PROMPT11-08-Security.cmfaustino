@@ -1,0 +1,12 @@
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted.Tests\bin\Debug\Ex2AppWebFbiMostWanted.Tests.dll.config
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted.Tests\bin\Debug\Ex2AppWebFbiMostWanted.Tests.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted.Tests\bin\Debug\Ex2AppWebFbiMostWanted.Tests.pdb
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted.Tests\bin\Debug\Ex2AppWebFbiMostWanted.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted.Tests\bin\Debug\nunit.framework.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted.Tests\bin\Debug\EntityFramework.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted.Tests\bin\Debug\Ex2AppWebFbiMostWanted.pdb
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted.Tests\bin\Debug\nunit.framework.xml
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted.Tests\bin\Debug\EntityFramework.xml
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted.Tests\obj\Debug\Ex2AppWebFbiMostWanted.Tests.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted.Tests\obj\Debug\Ex2AppWebFbiMostWanted.Tests.pdb

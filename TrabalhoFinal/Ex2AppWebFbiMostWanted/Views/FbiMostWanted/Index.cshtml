@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Ex2AppWebFbiMostWanted.Models.FbiMostWanted>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            FullName
+        </th>
+        <th>
+            Photo
+        </th>
+        <th>
+            AliasName
+        </th>
+        <th>
+            CrimesComitted
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Photo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AliasName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CrimesComitted)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

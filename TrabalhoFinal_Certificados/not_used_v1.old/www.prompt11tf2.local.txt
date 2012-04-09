@@ -1,0 +1,33 @@
+http://www.we-coffee.com/x509builder.aspx
+
+Address:	www.prompt11tf2.local
+TLS/SSL certificate friendly name:	www.prompt11tf2.local
+TLS/SSL certificate key length (bits):	1024
+Contact e-mail:	carlos_bat_faustino@hotmail.com
+Organization Name:	CCISEL
+State/Province:	Lisboa
+Country:	Portugal
+ICA common name:	<nulo> | CA1 - Intermediate CA
+ICA certificate friendly name:	<nulo> | www.prompt11tf2.local | CA1 - Intermediate CA
+ICA certificate key length (bits):	1024
+
+Criacao (sem sucesso) de certificado de dominio no IIS:
+
+Nome comum:	www.prompt11tf2.local
+Organização:	CCISEL
+Unidade organizacional:	PROMPT11
+Localidade:	Lisboa
+Distrito:	Lisboa
+País/região:	PT
+
+CA1 - Root CA
+CA1 - Intermediate CA
+
+makecert
+ -n "CN=www.prompt11tf2.local,OU=PROMPT11,O=CCISEL,C=PT"
+ -pe -in "CA1 - Intermediate CA" ou "CN=CA1 - Intermediate CA,OU=PROMPT11,O=CCISEL,C=PT" -ir localmachine
+ -is my
+ -sv "www.prompt11tf2.local.pvk" -cy end -eku 1.3.6.1.5.5.7.3.1 "www.prompt11tf2.local.cer"
+
+cert2spc "www.prompt11tf2.local.cer" "www.prompt11tf2.local.spc"
+pvk2pfx -pvk "www.prompt11tf2.local.pvk" -spc "www.prompt11tf2.local.spc" -pfx "www.prompt11tf2.local.pfx"

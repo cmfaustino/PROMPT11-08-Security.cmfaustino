@@ -1,0 +1,12 @@
+http://www.we-coffee.com/x509builder.aspx
+
+Address:	www.prompt11tf2.local
+TLS/SSL certificate friendly name:	www.prompt11tf2.local
+TLS/SSL certificate key length (bits):	1024
+Contact e-mail:	carlos_bat_faustino@hotmail.com
+Organization Name:	CCISEL
+State/Province:	Lisboa
+Country:	Portugal
+ICA common name:	PROMPT11UC08TF
+ICA certificate friendly name:	PROMPT11UC08TF
+ICA certificate key length (bits):	1024

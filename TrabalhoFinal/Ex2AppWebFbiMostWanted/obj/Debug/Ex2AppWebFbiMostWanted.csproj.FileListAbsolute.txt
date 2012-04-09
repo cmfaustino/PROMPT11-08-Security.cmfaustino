@@ -1,0 +1,7 @@
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted\bin\Ex2AppWebFbiMostWanted.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted\bin\Ex2AppWebFbiMostWanted.pdb
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted\bin\EntityFramework.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted\bin\EntityFramework.xml
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted\obj\Debug\ResolveAssemblyReference.cache
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted\obj\Debug\Ex2AppWebFbiMostWanted.dll
+C:\z_PROMPT\PROMPT\uc08\repos\PROMPT11-08-Security.cmfaustino\TrabalhoFinal\Ex2AppWebFbiMostWanted\obj\Debug\Ex2AppWebFbiMostWanted.pdb
