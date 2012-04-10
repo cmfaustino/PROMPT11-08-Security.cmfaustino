@@ -41,4 +41,6 @@ Para o **Exercicio (do Trabalho) Final 2 (aplicação Web baseada em ASP.NET MVC
 
 * criacao de login **IIS APPPOOL\www.prompt11tf2.local** em SQL Server Management Studio (SSMS) -> Security->Logins, e em Properties->User Mapping deste login, as permissoes: `db_owner` e `public` para a bd *Ex2AppWebFbiMostWanted.Models.FbiMostWantedContext*, e `public` para a bd *master*;
 
+--> Este exercicio esta' incompleto, pois ainda nao se fez nada do que esta' referido _especificamente no enunciado do trabalho final_ (os "seguintes requisitos adicionais").
+
 (Fim do ficheiro .md)

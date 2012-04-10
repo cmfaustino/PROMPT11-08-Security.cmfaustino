@@ -4,7 +4,7 @@ Antes de se ler este ficheiro, convem ler as notas iniciais contidas no ficheiro
 
 ### 13-03-2012 (dentro do prazo):
 
-Em relacao ao **Exercicio (do Trabalho) Final 1 (calculo de hash para um ficheiro(s))**:
+Em relacao ao **Exercicio (do Trabalho) Final 1 (calculo de hash para ficheiro(s))**:
 
 * Esta implementacao permite utilizar qualquer uma das classes de `System.Security.Cryptography` indicadas em *`HashComputacao.HashMetodoCalculo.Metodos`* , inclusive `System.Security.Cryptography.RIPEMD160Managed`;
 
@@ -17,6 +17,8 @@ Em relacao ao **Exercicio (do Trabalho) Final 1 (calculo de hash para um ficheir
  A pasta/namespace/projecto [`HashDeFicheiro`](https://github.com/cmfaustino/PROMPT11-08-Security.cmfaustino/tree/master/TrabalhoFinal/HashDeFicheiro) contem a logica do programa requerido pelo enunciado, que, com excepcao de algumas validacoes, limita-se, depois, a invocar o que esta' na logica independente referida anteriormente.
 
 * Consideracoes:
+
+ Ao executar o programa, pode-se indicar (path e) nome de ficheiro com wildcards * e ? , pelo que, este exercicio final e' um calculo de hash para ficheiro(s) (possibilidade de multiplos ficheiros, apenas via wildcards).
 
  [`System.Security.Cryptography.RIPEMD160Managed`](http://msdn.microsoft.com/en-us/library/system.security.cryptography.ripemd160managed.aspx) parece ser a unica classe (ou uma das classes) cuja implementacao de algoritmo de hash nao esta' contemplada em [`HashAlgorithm.Create`](http://msdn.microsoft.com/en-us/library/wet69s13.aspx), e por isso, pensa-se que o uso de [`HashAlgorithm.ComputeHash`](http://msdn.microsoft.com/en-us/library/system.security.cryptography.hashalgorithm.computehash.aspx) nao contempla todos os casos disponiveis na plataforma .NET (sera' gaffe da Microsoft? ou mau entendimento da documentacao MSDN por parte do aluno do PROMPT?);
 

@@ -14,7 +14,9 @@ Ate' 10-04-2012, so' foram implementados os 2 primeiros Exercicios Finais (de to
 
 As notas escritas, ate' agora, estao nos ficheiros:
 
-* [relatorio\_tf\_ex1.md](https://github.com/cmfaustino/PROMPT11-08-Security.cmfaustino/blob/master/relatorio_tf_ex1.md) - Exercicio Final 1;
-* [relatorio\_tf\_ex2.md](https://github.com/cmfaustino/PROMPT11-08-Security.cmfaustino/blob/master/relatorio_tf_ex2.md) - Exercicio Final 2.
+* [relatorio\_tf\_ex1.md](https://github.com/cmfaustino/PROMPT11-08-Security.cmfaustino/blob/master/relatorio_tf_ex1.md) - Exercicio Final 1 (calculo de hash para ficheiro(s));
+* [relatorio\_tf\_ex2.md](https://github.com/cmfaustino/PROMPT11-08-Security.cmfaustino/blob/master/relatorio_tf_ex2.md) - Exercicio Final 2 (aplicação Web baseada em ASP.NET MVC e em WIF).
+
+--> O exercicio final 2 esta' incompleto, pois ainda nao se fez nada do que esta' referido _especificamente no enunciado do trabalho final_ (os "seguintes requisitos adicionais").
 
 (Fim do ficheiro .md)
