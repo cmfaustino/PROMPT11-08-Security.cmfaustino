@@ -33,6 +33,11 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Photo)
+            <br/>
+            <img src="@if (item != null)
+                      {
+                          @item.Photo
+                      }" alt="Photo"/><!-- HACK: acrescentada visualizacao da imagem -->
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.AliasName)

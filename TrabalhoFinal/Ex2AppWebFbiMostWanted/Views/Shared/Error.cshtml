@@ -7,3 +7,37 @@
 <h2>
     Sorry, an error occurred while processing your request.
 </h2>
+
+<p>@Html.DisplayFor(model => model.Exception.Message)</p>
+
+<p>@Html.DisplayFor(model => model.Exception.StackTrace)</p>
+
+<!-- HACK: de http://stackoverflow.com/questions/619895/how-can-i-properly-handle-404-in-asp-net-mvc -->
+
+<p>
+    Ocorreu erro em: "@if (@Request.Url != null)
+                     {
+                        @Request.Url.Query
+                     }".
+    <br />
+    Ocorreu erro em: "@if (@Request.Url != null)
+                     {
+                        @Request.Url.ToString()
+                     }".
+    <br />
+    Mensagem: @@Server.GetLastError().GetBaseException().Message
+    <br />
+    Stack Trace: @@Server.GetLastError().GetBaseException().StackTrace
+    <br />
+    HttpException Http Code: @HttpException.CreateFromLastError("").GetHttpCode()
+    <br />
+    HttpException Message: @HttpException.CreateFromLastError("").Message
+    <br />
+    HttpException StackTrace: @HttpException.CreateFromLastError("").StackTrace
+<br />
+    Status: @HttpContext.Current.Response.StatusCode
+</p>
+
+<p>
+    @Html.ActionLink("Clique aqui para voltar 'a pagina inicial.", "Index", "Home")
+</p>

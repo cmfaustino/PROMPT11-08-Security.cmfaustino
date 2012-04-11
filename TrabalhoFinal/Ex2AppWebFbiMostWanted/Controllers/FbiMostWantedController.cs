@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
+﻿using System.Data;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using Ex2AppWebFbiMostWanted.Models;
 
 namespace Ex2AppWebFbiMostWanted.Controllers
 { 
-    // HACK: criado novo controlador para o modelo e o data context com views e actions red/write EF, com Razor (CSHTML)
+    // HACK: novo controlador para modelo e data context com views, actions read/write EF, Razor (CSHTML)
     public class FbiMostWantedController : Controller
     {
-        private readonly FbiMostWantedContext _db = new FbiMostWantedContext(); // HACK: adicionado readonly (ReSharper)
+        // HACK: adicionado readonly (ReSharper)
+        private readonly FbiMostWantedContext _db = new FbiMostWantedContext();
 
         //
         // GET: /FbiMostWanted/
@@ -57,7 +54,12 @@ namespace Ex2AppWebFbiMostWanted.Controllers
         
         //
         // GET: /FbiMostWanted/Edit/5
- 
+
+        // HACK: utilizacao de RequireClaimsAttribute que foi definido
+
+        [RequireClaims(EmailAddressesAllowed = new[] { "pmhsfelix@gmail.com",
+                                                        "carlos_bat_faustino@hotmail.com" })
+        ] // QUALQUER UM de 2 e-mails
         public ActionResult Edit(int id)
         {
             FbiMostWanted fbimostwanted = _db.FbiMostWantedCriminals.Find(id);
@@ -91,6 +93,9 @@ namespace Ex2AppWebFbiMostWanted.Controllers
         //
         // POST: /FbiMostWanted/Delete/5
 
+        // HACK: utilizacao de RequireClaimsAttribute que foi definido
+
+        [RequireClaims(IssuersAllowed = new[] { "Google", "Yahoo!" })] // QUALQUER UM de 2 issuers
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
         {            

@@ -18,6 +18,8 @@
     <div class="display-label">Photo</div>
     <div class="display-field">
         @Html.DisplayFor(model => model.Photo)
+        <br/>
+        <img src="@Model.Photo" alt="Photo"/><!-- HACK: acrescentada visualizacao da imagem -->
     </div>
 
     <div class="display-label">AliasName</div>

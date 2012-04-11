@@ -30,6 +30,8 @@
         <div class="editor-field">
             @Html.EditorFor(model => model.Photo)
             @Html.ValidationMessageFor(model => model.Photo)
+            <br/>
+            <img src="@Model.Photo" alt="Photo"/><!-- HACK: acrescentada visualizacao da imagem -->
         </div>
 
         <div class="editor-label">

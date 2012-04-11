@@ -1,62 +1,66 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="B9D9AB63-D715-4925-98AA-479A79D78051/f:GestaoSistemaFicheiros.cs" caret="0" fromTop="0" />
-    <File id="B9D9AB63-D715-4925-98AA-479A79D78051/f:HashMetodoCalculo.cs" caret="0" fromTop="0" />
-    <File id="B9D9AB63-D715-4925-98AA-479A79D78051/f:HashCalculoFicheiro.cs" caret="0" fromTop="0" />
     <File id="3225A86E-F0D9-4A14-90B2-6B2F24BD1E0D/f:Program.cs" caret="6782" fromTop="11" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
     <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Scripts/f:jquery.validate.min.js" caret="354" fromTop="12" />
     <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
     <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/f:Web.config" caret="0" fromTop="0" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:FbiMostWanted/f:Details.cshtml" caret="0" fromTop="0" />
     <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:FbiMostWanted/f:Delete.cshtml" caret="0" fromTop="0" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:FbiMostWanted/f:Create.cshtml" caret="0" fromTop="0" />
     <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:FbiMostWanted/f:Edit.cshtml" caret="0" fromTop="0" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:FbiMostWanted/f:Index.cshtml" caret="0" fromTop="0" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:FbiMostWanted.cs" caret="842" fromTop="27" />
     <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Global.asax.cs" caret="0" fromTop="0" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:FbiMostWantedContext.cs" caret="239" fromTop="7" />
     <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:Shared/f:_LogOnPartial.cshtml" caret="0" fromTop="0" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
     <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:FbiMostWantedController.cs" caret="0" fromTop="0" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:AccountModels.cs" caret="0" fromTop="0" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:AccountController.cs" caret="726" fromTop="21" />
     <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:FederationMetadata/d:2007-06/f:FederationMetadata.xml" caret="0" fromTop="0" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="235" fromTop="10" />
     <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:SampleRequestValidator.cs" caret="1441" fromTop="15" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="5062" fromTop="12" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:AccountModels.cs" caret="0" fromTop="0" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:FbiMostWanted.cs" caret="0" fromTop="0" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:FbiMostWantedContext.cs" caret="0" fromTop="0" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:FbiMostWanted/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:FbiMostWanted/f:Create.cshtml" caret="0" fromTop="0" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:FbiMostWanted/f:Details.cshtml" caret="0" fromTop="0" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:Account/f:applocal2LoginPageCode.html" caret="15104" fromTop="30" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:Home/f:About.cshtml" caret="0" fromTop="0" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:FbiMostWantedController.cs" caret="1851" fromTop="64" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:Error/f:Http404.cshtml" caret="0" fromTop="0" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:Error/f:Http500.cshtml" caret="0" fromTop="0" />
+    <File id="B9D9AB63-D715-4925-98AA-479A79D78051/f:HashCalculoFicheiro.cs" caret="0" fromTop="0" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:ErrorController.cs" caret="661" fromTop="21" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="9796" fromTop="11" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:Shared/f:Error.cshtml" caret="0" fromTop="0" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="6165" fromTop="11" />
   </RecentFiles>
   <RecentEdits>
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:FbiMostWanted.cs" caret="460" fromTop="15" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:FbiMostWanted.cs" caret="460" fromTop="15" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:FbiMostWanted.cs" caret="906" fromTop="30" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:FbiMostWantedContext.cs" caret="239" fromTop="6" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:FbiMostWantedContext.cs" caret="121" fromTop="4" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:Home/f:Index.cshtml" caret="224" fromTop="7" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:Shared/f:_Layout.cshtml" caret="393" fromTop="8" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:FbiMostWanted.cs" caret="239" fromTop="9" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:Shared/f:_Layout.cshtml" caret="1124" fromTop="26" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Views/d:Shared/f:_Layout.cshtml" caret="823" fromTop="21" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:FbiMostWanted.cs" caret="685" fromTop="23" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:FbiMostWanted.cs" caret="555" fromTop="19" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:FbiMostWanted.cs" caret="409" fromTop="15" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:FbiMostWanted.cs" caret="842" fromTop="27" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:FbiMostWantedController.cs" caret="197" fromTop="8" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="8482" fromTop="18" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="5118" fromTop="27" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="8274" fromTop="25" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="7633" fromTop="17" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="6683" fromTop="25" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="8718" fromTop="33" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="6482" fromTop="5" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="5232" fromTop="14" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="5232" fromTop="14" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="4555" fromTop="5" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="1639" fromTop="19" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="1990" fromTop="29" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="1108" fromTop="13" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:AccountController.cs" caret="735" fromTop="21" />
-    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="235" fromTop="10" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="1025" fromTop="10" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:HomeController.cs" caret="1020" fromTop="22" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:HomeController.cs" caret="1020" fromTop="26" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:HomeController.cs" caret="829" fromTop="22" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:HomeController.cs" caret="710" fromTop="19" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:FbiMostWantedController.cs" caret="1754" fromTop="19" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:ErrorController.cs" caret="173" fromTop="4" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="942" fromTop="10" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="1066" fromTop="14" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="1362" fromTop="5" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="1635" fromTop="11" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="1880" fromTop="17" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="2636" fromTop="23" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="3967" fromTop="16" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="3838" fromTop="12" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="4494" fromTop="20" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="4539" fromTop="20" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="3342" fromTop="19" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="3064" fromTop="13" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="5110" fromTop="13" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Controllers/f:ErrorController.cs" caret="661" fromTop="21" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="5976" fromTop="7" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="6179" fromTop="5" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="6674" fromTop="15" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="7386" fromTop="16" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="8249" fromTop="14" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="9162" fromTop="16" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="9453" fromTop="11" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/d:Models/f:RequireClaimsAttribute.cs" caret="9796" fromTop="20" />
+    <File id="145451EC-265B-4A20-A8D0-B01DE11E16DC/f:Web.config" caret="6342" fromTop="13" />
   </RecentEdits>
 </RecentFiles>
